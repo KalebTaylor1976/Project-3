@@ -1,13 +1,32 @@
 <!doctype html>
 <html>
-<head>
-  <link href="css/bootstrap.css" rel ="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-<title></title>
-</head>
-<body>
-  <p><iframe id="List" src="js/scripts.js"></iframe>
-  </p>
+  <head>
+    <script>
+      const app = document.getElementById("app");
+      const input = document.getElementById("input");
+      const button = document.getElementById("button");
 
-</body>
+      button.addEventListener("click", function() {
+        let num = input.value;
+        let list = [];
+        for (let i = 0; i <= num; i++) {
+          if (i.toString().includes("3")) {
+            list.push("Won't you be my neighbor?");
+          } else if (i.toString().includes("2")) {
+            list.push("Boop!");
+          } else if (i.toString().includes("1")) {
+            list.push("Beep!");
+          } else {
+            list.push(i);
+          }
+        }
+        app.innerHTML = list.join(", ");
+      });
+    </script>
+  </head>
+  <body>
+    <input type="number" id="input">
+    <button id="button">Go!</button>
+    <div id="app"></div>
+  </body>
 </html>
