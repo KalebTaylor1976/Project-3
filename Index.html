@@ -6,7 +6,7 @@
       const input = document.getElementById("input");
       const button = document.getElementById("button");
 
-      button.addEventListener("click", function() {
+      button.addEventListener ("click", function() {
         let num = input.value;
         let list = [];
         for (let i = 0; i <= num; i++) {
@@ -17,7 +17,7 @@
           } else if (i.toString().includes("1")) {
             list.push("Beep!");
           } else {
-            list.push(i);
+            list.push(i.toString());
           }
         }
         app.innerHTML = list.join(", ");
