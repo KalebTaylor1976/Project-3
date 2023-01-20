@@ -1,15 +1,17 @@
-Project-3
-By Kaleb Taylor
-Technologies Used
-HTML
-Java Script
-CSS
-Description
+#Project-3
+#By Kaleb Taylor
+
+#Technologies Used:
+#HTML
+#Java Script
+#CSS
+
+#Description
 a web application that takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions made within the returned list:
 
-For numbers that contain a 1, all digits are replaced with "Beep!" For example, all digits of the number 109, 11, or 1 would be replaced with "Beep!" For numbers that contain a 2, all digits are replaced with "Boop!" For example, all digits of the number 2, 24, or 2099 would be replaced with "Boop!" For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?" For example, all digits of the number 39, 3, or 8763 would be replaced with "Won't you be my neighbor?"
+#For numbers that contain a 1, all digits are replaced with "Beep!" For example, all digits of the number 109, 11, or 1 would be replaced with "Beep!" For numbers that contain a 2, all digits are replaced with "Boop!" For example, all digits of the number 2, 24, or 2099 would be replaced with "Boop!" For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?" For example, all digits of the number 39, 3, or 8763 would be replaced with "Won't you be my neighbor?"
 
-Setup/Installation Requirements
+#Setup/Installation Requirements
 Download repository https://github.com/KalebTaylor1976/Project-3.git
 Load Index.html
 Known Bugs
